@@ -1,0 +1,33 @@
+.div-card {
+    display: flex;
+
+    flex: 30%;
+    margin-bottom: 3%;
+
+}
+
+.main_div {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cards {
+    padding: 24px 75px;
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+
+
+.cards>img {
+    display: flex;
+    height: 200px;
+    width: 200px;
+
+}
+
+.card-body {
+    padding-right: inherit;
+}

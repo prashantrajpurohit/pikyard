@@ -1,0 +1,59 @@
+header {
+    background-color: #18211d;
+    padding: 0.5rem 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav>ul {
+
+    display: flex;
+}
+
+nav>ul>li {
+    list-style: none;
+    color: white;
+    padding: 0 10px;
+
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 30px;
+}
+
+input {
+    height: 30px;
+    border-radius: 6px;
+    width: 313px;
+    margin-right: 2px;
+
+}
+
+.login,
+.cart,
+.lang {
+
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.search-bar>button {
+    padding: 7px 0px;
+    width: 35px;
+    background: #101312;
+    color: orange;
+    border: 1px solid;
+    border-color: #a47153;
+    height: 33px;
+    border-radius: 6px;
+}
